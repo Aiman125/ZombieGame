@@ -1,0 +1,26 @@
+package zombiewar.impl;
+import Lab5.intf.ISurvivor;
+import Lab5.intf.IZombie;
+
+public class Teacher extends Character implements ISurvivor {
+	private static int objCount = 0;
+	private int id=0;
+	
+	/**
+	 * Teacher starts with 50 health points
+	 */
+	public Teacher() {
+		super(50);
+		id = objCount++;
+	}
+
+
+	@Override
+	public void attack(IZombie zombie) {
+		zombie.decreaseHealth(5);
+	}
+	
+	public String toString(){
+		return "Teacher " + id;
+	}
+}
