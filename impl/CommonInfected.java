@@ -1,6 +1,6 @@
-package zombiegame.impl;
-import zombiegame.intf.ISurvivor;
-import zombiegame.intf.IZombie;
+package zombiewar.impl;
+import zombiewar.intf.ISurvivor;
+import zombiewar.intf.IZombie;
 
 public class CommonInfected extends Character implements IZombie {
 	private static int objCount = 0;
