@@ -1,4 +1,4 @@
-package Lab5.intf;
+package zombiewar.intf;
 
 public interface ICharacter {
 
