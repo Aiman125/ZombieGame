@@ -1,6 +1,6 @@
-package Lab5.impl;
-import Lab5.intf.ISurvivor;
-import Lab5.intf.IZombie;
+package zombiewar.impl;
+import zombiewar.intf.ISurvivor;
+import zombiewar.intf.IZombie;
 
 public class Tank extends Character implements IZombie {
 	private static int objCount = 0;
