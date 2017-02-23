@@ -1,6 +1,6 @@
-package zombiewar.impl;
-import zombiewar.intf.ISurvivor;
-import zombiewar.intf.IZombie;
+package Lab5.impl;
+import Lab5.intf.ISurvivor;
+import Lab5.intf.IZombie;
 
 public class Soldier extends Character implements ISurvivor {
 	private static int objCount = 0;
